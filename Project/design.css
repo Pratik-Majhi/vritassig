@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: solid white;
+    color: #069306;
+    padding: 20px 50px;
+    
+    
+}
+ 
+
+ nav{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em; 
+     display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* a {
+    text-decoration: none;
+    color:#6C7484;
+    
+    padding: 10px;
+} */
+ #btn{
+    border: px;
+    border-color: orange;
+    background-color: white;
+    color: orange;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+   
+}
+
+/* img{
+    width: 100%;
+    height: 500px;
+} */    
+#pmbtn{
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 0px 0px 16px 0px #98ACF640;
+        background: #0F32B1;
+        border: none;
+}
+.buttons :hover{
+    cursor: pointer;
+    
+} 
+.dis{
+   color: #0F32B1;
+}
+ nav main a{
+    padding: 2px 20px 2px 20px; 
+ }
+ .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+h3,h4{
+white-space: nowrap;
+}
+.search-group {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-group label {
+    flex: 0 0 150px;
+    margin-right: 10px;
+}
+
+.search-group input {
+    flex: 1;
+}
+
+.search-group input[type="submit"] {
+    width: auto;
+    height: auto;
+}
+
+
+.search-form {
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: -35px;
+    border-radius: 25px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #061447;
+    color: white;
+    cursor: pointer;
+    width: auto;
+}
+
+.form{
+    justify-content: center;
+}
+
+.sort-container {
+    text-align: right;
+    margin-top: 10px;
+ }
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.university {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.logo5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Sunshine.png);
+    border-color: #333
+}
+.logo1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Melbourne.png);
+    border-color: #333;
+}
+.logo2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Queensland.png);
+    border-color: #333;
+}
+
+.logo3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Griffth.png);
+    border-color: #333
+}
+.logo4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Southern.png);
+    border-color: #333
+}
+.logo6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(./images/Griffth.png);
+    border-color: #333
+}
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    position: relative;
+    margin-left: 70px;
+    text-align: left;
+}
+.border-below-h2::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #ddd;
+    position: absolute;
+    bottom: inherit;
+    left: 0;
+}
+
+.course {
+    color: #878787;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: left;
+}
+
+.fee,
+.duration {
+    color: #061447;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.sideways {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #061447;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    color: #878787;
+}
+
+.foot1 > * {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.flogo{
+    width: 50%;
+    height: 50%;
+}
+.footer-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul,
+.privacy-policy-container,
+div {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li,
+.privacy-policy-container li,
+div li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.app-store-buttons {
+    margin-top: 10px;
+}
+
+.app-store-button{
+    background-image: url(./images/Badges.png);
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+    background-color: solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.foot1::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #061447;
+    margin-top: 20px;
+    position: absolute;
+    bottom: inherit;
+
+}
+
+.foot2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.copyright, .social-media-links {
+    flex: 1;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-link1 {
+    background-image: url('./images/Social.png');
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .image-container {
+        height: auto;
+    }
+
+    .text-overlay {
+        font-size: 18px;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .sort-container {
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .university {
+        width: 100%;
+    }
+}
